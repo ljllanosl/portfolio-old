@@ -1,9 +1,18 @@
 import './App.css'
+import { About } from './components/About'
+import { Contacts } from './components/Contacts'
+import { Home } from './components/Home'
+import { Navbar } from './components/Navbar'
+import { Projects } from './components/Projects'
 
 function App () {
   return (
     <>
-      <h2>Portafolio</h2>
+      <Navbar />
+      <Home />
+      <About />
+      <Projects />
+      <Contacts />
     </>
   )
 }
