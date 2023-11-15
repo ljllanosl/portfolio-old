@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+
 export function Navbar () {
   return (
     <header>
@@ -5,19 +8,13 @@ export function Navbar () {
         <h3 className='my-auto'>Logo</h3>
         <ul className='flex list-none gap-8'>
           <li>
-            <a href='' className='hidden sm:block font-semibold'>Home</a>
+            <a href='#home' className='hidden sm:block font-semibold'>Home</a>
           </li>
           <li>
-            <a href='' className='hidden sm:block font-semibold'>Acerca de</a>
+            <a href='#about' className='hidden sm:block font-semibold'>Acerca de</a>
           </li>
           <li>
-            <a href='' className='hidden sm:block font-semibold'>Proyectos</a>
-          </li>
-          <li>
-            <a href='' className='hidden sm:block font-semibold'>Contacto</a>
-          </li>
-          <li>
-            <h3 className='sm:hidden'>Burger</h3>
+            <FontAwesomeIcon icon={faBars} className='sm:hidden' />
           </li>
         </ul>
       </nav>
