@@ -6,9 +6,11 @@ import { Home } from './components/Home'
 function App () {
   return (
     <>
-      <Home />
-      <About />
-      <Experience />
+      <main>
+        <Home />
+        <About />
+        <Experience />
+      </main>
     </>
   )
 }
