@@ -6,9 +6,10 @@ import { Home } from './components/Home'
 function App () {
   return (
     <>
-      <main>
+      <main className='flex flex-col gap-16'>
         <Home />
         <About />
+        <hr />
         <Experience />
       </main>
     </>
