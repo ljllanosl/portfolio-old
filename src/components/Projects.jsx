@@ -1,5 +1,11 @@
 export function Projects () {
   return (
-    <h1>Projects</h1>
+    <section>
+      <span>
+        <h1>Proyectos</h1>
+      </span>
+      <h2>En construcción</h2>
+    </section>
+
   )
 }

@@ -4,9 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export function Experience () {
   return (
     <section className='flex flex-col gap-5'>
-      <span className='flex flex-row justify-start items-center my-3 gap-3'>
-        <h1 className=''>Experiencia</h1>
-        <FontAwesomeIcon icon={faBriefcase} size='2xl' className='mb-[12px] mt-[24px]' />
+      <span className='flex flex-row justify-start items-center gap-3'>
+        <h1>Experiencia</h1>
+        <FontAwesomeIcon icon={faBriefcase} size='2x' className='my-[12px]' />
       </span>
       <article>
         <div>

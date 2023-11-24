@@ -1,12 +1,15 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import me from '../assets/download20231104002652.png'
+import me from '../assets/download20231105133408.png'
 
 export function Home () {
   return (
     <section id='home' className='pt-10'>
       <article className='flex sm:flex-row flex-col gap-5 items-center justify-center sm:justify-start'>
-        <img src={me} alt='yo' className='profile w-1/4 h-auto rounded-full bg-slate-50 border-4 rounded-full border-black' />
+        <div className='w-40 h-40 rounded-full border-4 border-black shrink-0'>
+          <img src={me} alt='yo' className=' rounded-full bg-slate-50 ' />
+        </div>
+
         <div className='flex flex-col gap-4 items-center sm:items-start justify-center sm:justify-start'>
           <h1>Luis Llanos</h1>
           <p>Programador web Front End Junior</p>
