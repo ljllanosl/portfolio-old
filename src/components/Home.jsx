@@ -1,12 +1,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import profilePic from '../assets/download20231105133408.png'
 
 export function Home () {
   return (
     <section id='home' className='pt-10'>
       <article className='flex sm:flex-row flex-col gap-5 items-center justify-center sm:justify-start'>
         <div className='w-40 h-40 rounded-full border-8 box-border border-[#0c151c] shrink-0'>
-          <img src='/src/assets/download20231105133408.png' alt='yo' className=' rounded-full bg-slate-50 ' />
+          <img src={profilePic} alt='luisllanos' title='Luis Llanos' className=' rounded-full bg-slate-50 ' />
         </div>
 
         <div className='flex flex-col gap-4 items-center sm:items-start justify-center sm:justify-start'>
