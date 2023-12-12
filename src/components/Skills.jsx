@@ -1,10 +1,10 @@
 import { faLightbulb } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import html5Logo from '../assets/html-5-svgrepo-com.svg'
-import css3Logo from '../assets/css-3-svgrepo-com.svg'
-import jsLogo from '../assets/javascript-svgrepo-com.svg'
-import reactLogo from '../assets/react-svgrepo-com.svg'
-import twLogo from '../assets/tailwind-svgrepo-com.svg'
+import html5Logo from '../assets/html5.svg'
+import css3Logo from '../assets/css.svg'
+import jsLogo from '../assets/javascript.svg'
+import reactLogo from '../assets/react.svg'
+import twLogo from '../assets/tailwindcss.svg'
 
 export default function Skills () {
   return (
@@ -13,7 +13,7 @@ export default function Skills () {
         <h1>Conocimientos</h1>
         <FontAwesomeIcon icon={faLightbulb} size='2x' />
       </span>
-      <ul className='flex flex-wrap gap-5'>
+      <ul className='flex flex-wrap gap-5 items-center'>
         <li>
           <img src={html5Logo} title='HTML5' alt='HTML5' className='w-16 h-auto transition hover:-translate-y-1' />
         </li>
